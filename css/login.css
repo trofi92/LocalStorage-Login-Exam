@@ -27,6 +27,7 @@
 input::placeholder {
     background-color: beige;
     text-align: center;
+    color: brown;
 }
 
 .login-form-footer {
