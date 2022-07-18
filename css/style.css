@@ -3,6 +3,7 @@
 @import "nav-bar.css";
 @import "img.css";
 @import "footer.css";
+@import "login.css";
 
 *{
     box-sizing: border-box;
