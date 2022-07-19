@@ -1,14 +1,18 @@
-.login-form {
+.login-body {
     display: block;
     font-size: 13px;
 }
 
 .login-form-logo {
-    margin-bottom: 100px;
+    
     margin-top: 100px;
 }
 
-.login-input {
+.logo-link {
+    margin: 0;
+}
+
+#login-input #password-input {
     display: flex;
     margin: auto;
     text-align: center;
@@ -16,9 +20,17 @@
     justify-content: center;
 }
 
-.login-page-buttons{
+#login-input {
+    margin-top: 100px;
+}
+
+
+#password-input {
+    margin-bottom: 50px;
+}
+
+#login-button .join-button .find-button {
     margin: auto;
-    margin-top: 25px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -30,7 +42,7 @@ input::placeholder {
     color: brown;
 }
 
-.login-form-footer {
+#login-form-footer {
     display: flex;
     width: 200px;
     height: 20px;

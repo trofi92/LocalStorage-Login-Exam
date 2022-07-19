@@ -1,3 +1,4 @@
+// pop up
 function loginPopUp (){
     const url = "file:///home/edu02/sample/login.html";
     const name = "LOG IN";

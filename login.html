@@ -10,29 +10,33 @@
 </head>
 
 
-<body class="login-form">
-    <form action="">
-
-    <a href="file:///home/edu02/sample/index.html" target="_blank"><img class="login-form-logo"  class="logo-size" src="img/logo.png"/></a>
-
+<body class="login-body">
     
-    <div class="login-input"><input type="text" style="width: 185px;" placeholder="ID" /></div>
+    <a class="logo-link" href="file:///home/edu02/sample/index.html" target="_blank"><img class="login-form-logo"  class="logo-size" src="img/logo.png"/></a>
+
+
+
+    <form class="login-form">
     
-    <div class="login-input"><input type="password" style="width: 185px;" placeholder="PASSWORD" /></div>
 
-        <input class="login-page-buttons" type="button" onClick="" value="Login">
-        
-        <input class="login-page-buttons" type="button" onClick="" value="Join">
-        
-        <input class="login-page-buttons" type="button" onClick="" value="Forget ID/PW">
-
+        <div id="login-input"><input id="id-inner-input" type="text" required style="width: 185px;" placeholder="ID" /></div>
+    
+        <div id="password-input"><input id="pw-inner-input" type="password" required style="width: 185px;"  placeholder="PASSWORD" /></div>
+    
+        <input id="login-button" type="submit" onclick="onLoginSubmit()" value="Login">
+    
     </form>
+        
+        <input class="join-button" type="button" onClick="" value="Join">
+        
+        <input class="find-button" type="button" onClick="" value="Forget ID/PW">
 
-<div class="login-form-footer">
+
+<div id="login-form-footer">
     <div>Terms</div><div>@Copyright</div><div>Policy</div>
 </div>
 
 
-
+<script src="login.js"></script>
 </body>
 </html>
